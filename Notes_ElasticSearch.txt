@@ -1,0 +1,57 @@
+Link:https://www.youtube.com/watch?v=K-BBol9hQ54
+
+Installing and Downloading Elasticsearch
+Download:
+https://www.elastic.co/downloads/elasticsearch
+
+Open cmd:
+C:\Users\Abhishek_Jaiswal>cd C:\Users\Abhishek_Jaiswal\Downloads\elasticsearch-8.13.4\bin
+C:\Users\Abhishek_Jaiswal\Downloads\elasticsearch-8.13.4\bin>elasticsearch
+or 
+run elasticsearch.bat file under bin.
+
+
+https://localhost:9200/
+username: elastic
+password: vfkWRFChlFKFBDPz*0y8
+==================================================================================================
+{
+  "name": "EPINHYDW0A7D",
+  "cluster_name": "elasticsearch",
+  "cluster_uuid": "a57MBn9ASMeHvz50xXDURQ",
+  "version": {
+    "number": "8.13.4",
+    "build_flavor": "default",
+    "build_type": "zip",
+    "build_hash": "da95df118650b55a500dcc181889ac35c6d8da7c",
+    "build_date": "2024-05-06T22:04:45.107454559Z",
+    "build_snapshot": false,
+    "lucene_version": "9.10.0",
+    "minimum_wire_compatibility_version": "7.17.0",
+    "minimum_index_compatibility_version": "7.0.0"
+  },
+  "tagline": "You Know, for Search"
+}
+===================================================================================================
+Output PW Details:
+Γ£à Elasticsearch security features have been automatically configured!
+Γ£à Authentication is enabled and cluster connections are encrypted.
+
+Γä╣∩╕Å  Password for the elastic user (reset with `bin/elasticsearch-reset-password -u elastic`):
+  vfkWRFChlFKFBDPz*0y8
+
+Γä╣∩╕Å  HTTP CA certificate SHA-256 fingerprint:
+  91feeb4972a2d96daa454720c666cdce775b51ab08a14a004e6792ab13f8af3d
+
+Γä╣∩╕Å  Configure Kibana to use this cluster:
+ΓÇó Run Kibana and click the configuration link in the terminal when Kibana starts.
+ΓÇó Copy the following enrollment token and paste it into Kibana in your browser (valid for the next 30 minutes):
+  eyJ2ZXIiOiI4LjEzLjQiLCJhZHIiOlsiMTkyLjE2OC42LjEwNTo5MjAwIl0sImZnciI6IjkxZmVlYjQ5NzJhMmQ5NmRhYTQ1NDcyMGM2NjZjZGNlNzc1YjUxYWIwOGExNGEwMDRlNjc5MmFiMTNmOGFmM2QiLCJrZXkiOiI4d014ejQ4QmY0dnBUQUFRUFhFRjpHNUczdWtsZFJfV29EcktzYWFiRWR3In0=
+
+Γä╣∩╕Å  Configure other nodes to join this cluster:
+ΓÇó On this node:
+  Γüâ Create an enrollment token with `bin/elasticsearch-create-enrollment-token -s node`.
+  Γüâ Uncomment the transport.host setting at the end of config/elasticsearch.yml.
+  Γüâ Restart Elasticsearch.
+ΓÇó On other nodes:
+  Γüâ Start Elasticsearch with `bin/elasticsearch --enrollment-token <token>`, using the enrollment token that you generated.
